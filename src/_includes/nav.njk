@@ -1,0 +1,37 @@
+<!-- Navbar -->
+<nav class="z-20 fixed top-0 left-0 right-0 bg-[#FDF6BA] rounded-xl mx-2 md:mx-[110px] mt-2 py-2 ">
+  <div class="flex justify-between items-center">
+    <!-- logo image on the left -->
+    <div>
+        <div class="mx-2 ml-3 flex gap-x-1">
+            <a href="/">
+              <img class="rounded-none m-0 w-[35px] md:w-[40px] h-auto" src="https://s6.imgcdn.dev/g9zkv.png" alt="Unpad Street Animal Friend logo">
+            </a>                    
+            <h5 class="ml-2 text-sm my-auto font-semibold text-gray-800 hidden sm:block">Peduli Hewan <br> Jalanan Unpad</h5>
+        </div>
+    </div>
+    <!--nav links on big screen only-->
+    <div class="mx-8 space-x-5 hidden sm:block">
+      <a class="text-gray-700 text-sm font-medium no-underline" href="/posts">Blogs</a>
+      <a class="text-gray-700 text-sm font-medium no-underline" href="">Donate</a>
+      <a class="text-gray-700 text-sm font-medium no-underline" href="">FAQ</a>
+      <a class="text-gray-700 text-sm font-medium no-underline" href="/about">About</a>
+    </div>
+    <!-- menu button -->
+    <button id="nav-toggle" class="sm:hidden px-6 py-1 text-gray-900 cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+    </button>
+  </div>
+  
+  <!-- Menu Dropdown -->
+  <div id="nav-menu" class="p-5 hidden">
+    <div class="w-full flex flex-col items-end gap-y-4 mr-2">
+      <a href="" class="no-underline rounded-3xl flex justify-end w-full py-1 pr-3 text-3xl font-medium hover:bg-yellow-200 cursor-pointer">Donate</a>
+      <a href="/activities" class="no-underline rounded-3xl flex justify-end w-full py-1 pr-3 text-3xl font-medium hover:bg-yellow-200 cursor-pointer">Initiatives</a>
+      <a href="/posts" class="no-underline rounded-3xl flex justify-end w-full py-1 pr-3 text-3xl font-medium hover:bg-yellow-200 cursor-pointer">Blog</a>
+      <a href="/src/" class="no-underline rounded-3xl flex justify-end w-full py-1 pr-3 text-3xl font-medium hover:bg-yellow-200">FAQ</a>
+      <a href="/about" class="no-underline rounded-3xl flex justify-end w-full py-1 pr-3 text-3xl font-medium hover:bg-yellow-200">About</a>
+    </div>
+  </div>
+</nav>

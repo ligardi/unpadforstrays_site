@@ -1,0 +1,145 @@
+---
+title: e-Shop
+description: Student-run animal charity e-shop. Home to Reflective Collar Mark I and II
+layout: 'base.njk'
+---
+
+<div class="pt-14 md:pt-10 mx-2">
+
+    <div id="about-top" class="my-9 sm:my-1 mx-2 ml-5 flex items-center justify-between">        
+            <div class="sm:mt-24">
+                <h1 class="font-medium text-6xl sm:text-8xl text-gray-800 mb-8 tracking-wide">Shop</h1>
+                <p class="text-lg text-gray-400 max-w-md">Go all-in with our products! While we using our own funds, your purchase will supports our mission to provide medical care to street animals.</p>
+            </div>
+            <img class="mr-20 w-32 hidden sm:block" src="https://www.gstatic.com/android/keyboard/emojikitchen/20240530/u1f6d2/u1f6d2_u26a1.png" alt="shop icon">        
+    </div>
+    <!-- Divider -->
+    <hr class="mx-2 my-5 sm:my-10">
+        <!-- <div id="productlist">
+            <p class="my-10 italic text-center">Product not available for purchase. Please visit later.</p>
+        </div> -->
+    
+        <!--Product List-->
+    <form id="myForm">
+      <div class=" flex gap-2 md:gap-8 flex-wrap items-baseline mb-5">
+            <!--Totebag-->
+            <div class="border border-gray-400 rounded-3xl p-3 w-44 sm:w-52 flex flex-col">
+                <img class="rounded-xl mt-1" src="https://s6.imgcdn.dev/gPS2g.jpg">
+                <p class="text-xs my-0 py-0">Stock: 8</p>
+                <details>
+                    <summary class="flex gap-x-1 cursor-pointer items-center my-1">
+                        <div>
+                            <svg fill="none" height="20" width="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </div>
+                        <h1 class="text-xl font-semibold text-center text-wrap my-1">Totebag</h1>
+                    </summary>
+                    <p class="text-xs mb-1 text-start min-h-10">Add a paw-sitive touch to your day with our official Street Animal Friend tote. Compact yet spacious (21 x 29 cm), ready to be your everyday companion.</p>
+                </details>
+                <p class="mb-2 text-base font-bold"><span>Rp. </span>20000</p>
+                <input name="shop" value=" Totebag" type="checkbox" id="Totebag" class="hidden peer" />
+                <label for="Totebag" class="select-none cursor-pointer flex items-center justify-center rounded-3xl border-4 border-gray-700
+                py-1 px-5 font-medium text-gray-700 peer-checked:bg-slate-700 peer-checked:text-gray-100"><span>Add Item</span></label>
+            </div>
+            <!--Collar Mark 1-->
+            <div class="border border-gray-400 rounded-3xl p-3 w-44 sm:w-52 flex flex-col">
+              <img class="rounded-xl mt-1" src="https://s6.imgcdn.dev/gvDSL.jpg">
+              <p class="text-xs my-0 py-0">Stock: 5</p>
+              <details>
+                  <summary class="flex gap-x-1 cursor-pointer items-center my-1">
+                      <div>
+                          <svg fill="none" height="20" width="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                              <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg>
+                      </div>
+                      <h1 class="text-xl font-semibold text-center text-wrap my-1">Collar Mark I</h1>
+                  </summary>
+                  <p class="text-xs mb-1 text-start min-h-10">Enhanced night visibility. Made with nylon, reflective trim securely sewn. The Mark I collar was the cornerstone of our 2022 Safety Collar Project. Our hit product in 2022!</p>
+              </details>
+              <p class="mb-2 text-base font-bold"><span>Rp. </span>6000</p>
+              <input name="shop" value=" Collar Mark 1" type="checkbox" id="2" class="hidden peer" />
+              <label for="2" class="select-none cursor-pointer flex items-center justify-center rounded-3xl border-4 border-gray-700 py-1 px-5 font-medium text-gray-700 peer-checked:bg-slate-700 peer-checked:text-gray-100"><span>Add Item</span>
+              </label>
+            </div>
+            <!--Pet Bowl Eco Friendly-->
+            <div class="border border-gray-400 rounded-3xl p-3 w-44 sm:w-52 flex flex-col">
+              <img class="rounded-xl mt-1" src="https://s6.imgcdn.dev/gP7pO.jpg">
+              <p class="text-xs my-0 py-0">Stock: 5</p>
+              <details>
+                  <summary class="flex gap-x-1 cursor-pointer items-center my-1">
+                      <div>
+                          <svg fill="none" height="20" width="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                              <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg>
+                      </div>
+                      <h1 class="text-sm font-semibold text-center text-wrap my-1">Eco-Friendly Pet Bowl</h1>
+                  </summary>
+                  <p class="text-xs mb-1 text-start min-h-10">A bowl that's as kind to the earth as it is to your cat's face. Made from sustainable wheat straw. Diameter: 12 cm.</p>
+              </details>
+              <p class="mb-2 text-base font-bold"><span>Rp. </span>15000</p>
+              <input name="shop" value=" Pet Bowl" type="checkbox" id="PetBowl" class="hidden peer" />
+              <label for="PetBowl" class="select-none cursor-pointer flex items-center justify-center rounded-3xl border-4 border-gray-700
+              py-1 px-5 font-medium text-gray-700 peer-checked:bg-slate-700 peer-checked:text-gray-100"><span>Add Item</span></label>
+            </div>
+            <!--Collar Mark 2-->
+            <div class="border border-gray-400 rounded-3xl p-3 w-44 sm:w-52 flex flex-col">
+              <img class="rounded-xl mt-1" src="https://s6.imgcdn.dev/gPGyn.jpg">
+              <p class="text-xs my-0 py-0">Pre-order</p>
+              <details>
+                  <summary class="flex gap-x-1 cursor-pointer items-center my-1">
+                      <div>
+                          <svg fill="none" height="20" width="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+                              <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg>
+                      </div>
+                      <h1 class="text-xl font-semibold text-center text-wrap my-1">Collar Mark 2</h1>
+                  </summary>
+                  <p class="text-xs mb-1 text-start min-h-10">A wider reflective tape, a safer night. Our battle-tested Mark 2 collar offers superior visibility, taking the lessons learned from the Mark 1. <br><br> Product of Unpad Street Animal Friend Research Unit. Pre-order now!</p>
+              </details>
+              <p class="mb-2 text-base font-bold"><span>Rp. </span>10000</p>
+              <input disabled name="shop" value=" Collar Mark 2" type="checkbox" id="Mark2" class="hidden peer" />
+              <label for="Mark2" class="select-none cursor-pointer flex items-center justify-center rounded-3xl border-4 border-gray-700
+              py-1 px-5 font-medium text-gray-700 peer-checked:bg-slate-700 peer-checked:text-gray-100"><span>Pre-Order</span></label>
+            </div>
+      </div>
+    </form>
+    
+    <!--Checkout Card & Contact-->
+    <div class="my-6 rounded-2xl py-3 px-5 bg-[#fce354] max-w-96">
+      <div class="p-2 w-9 h-auto rounded-full bg-amber-500 flex justify-center items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="auto" viewBox="0 0 512 512">
+          <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="m320 264l-89.6 112l-38.4-44.88" />
+          <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M80 176a16 16 0 0 0-16 16v216c0 30.24 25.76 56 56 56h272c30.24 0 56-24.51 56-54.75V192a16 16 0 0 0-16-16Zm80 0v-32a96 96 0 0 1 96-96h0a96 96 0 0 1 96 96v32" />
+        </svg>
+      </div>
+      <h2 class="font-bold text-3xl mb-2">Order Summary</h2>
+      <h6 class="text-sm mb-4 text-slate-700">To complete or reset your order, click the button below.</h6>
+      <!--Identitas Nama & Alamat Pemesan-->
+      <div class="mb-3">
+        <label  for="namapemesan" class="text-xs">Your Name</label><br>
+        <input id="nama"class="text-sm pl-1 w-full py-2 bg-transparent border border-slate-900 rounded-lg" type="text" name="namapemesan">
+        <label for="alamatpemesan" class="text-xs">Shipment Address</label><br>
+        <input id="alamat" class="text-sm pl-1 w-full py-2 bg-transparent border border-slate-900 rounded-lg" type="text" name="alamatpemesan">    
+      </div>
+    
+      <button onclick="store()" class="font-bold bg-white text-black rounded-3xl py-2 px-4 focus:bg-slate-900 focus:text-white" type="button">Checkout <span class="text-sm ml-1">✓</span></button>
+      <button type="button" onclick="clearForm()" class="font-medium ml-5 text-slate-800">Clear</button>
+      <!--Order Box-->
+      <div id="orderBox" class="bg-transparent rounded-xl mt-4 mr-5 py-1 px-3 border-black">
+        <!-- <p id="orderku" class="mt-2 mb-4 text-base"></p> -->
+        <form id="myForm2">
+          <textarea class="bg-transparent w-full h-28 font-medium text-sm" value="Order:" id="orderku" name="orderform" type="text">Summary:</textarea>
+        </form>
+        <a id="link" class="hidden mt-1 mb-1 mx-auto w-fit flex justify-center gap-x-1 font-medium text-sm text-white bg-green-600 py-2 px-4 rounded-3xl no-underline" href=""><span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="auto" viewBox="0 0 24 24">
+              <path fill="white" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+            </svg>
+        </span>Pay via WhatsApp Business</a>
+      </div>
+      
+    </div>
+    
+</div>
+
+<script defer src="/js/shop.js"></script>
