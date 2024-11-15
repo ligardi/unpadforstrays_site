@@ -34,5 +34,7 @@ function store() {
     //Input di Order Summary Box
     document.getElementById("orderku").value = message;
     //remove class tailwind hidden agar tombol kontak WhatsApp keluar
-    link.classList.remove("hidden");  
+    link.classList.remove("hidden");
+    //WhatsApp link
+    link.href = `https://api.whatsapp.com/send?phone=6285872363082&text=Halo, saya mau pesan ${message}`
 }
