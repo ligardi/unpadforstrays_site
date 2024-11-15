@@ -5,7 +5,7 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "/src/img"
-public_folder: "/_site/asset"
+public_folder: "/img"
 local_backend: true
 
 collections:
