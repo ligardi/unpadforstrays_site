@@ -1,6 +1,6 @@
 @font-face {
   font-family: Google Sans Text;
-  src: url(./font/Google Sans Text.woff2) format("truetype");
+  src: url(./font/GoogleSansText.woff2) format("truetype");
 }
 
 
@@ -87,8 +87,8 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
+/*   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */ */
   font-feature-settings: normal;
   /* 5 */
   font-variation-settings: normal;
@@ -492,7 +492,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./font/Google Sans Text.woff2) format('woff2');
+  src: url(./font/GoogleSansText.woff2) format('woff2');
 }
 
 h2 {
