@@ -486,7 +486,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/public/font/Google\ Sans\ Text.woff2) format('woff2');
+  src: url('https://github.com/ligardi/unpadforstrays_site/raw/26bf1d4c1d24e43b4d35ebcdd0e5fb4a54e48fa2/src/font/Google%20Sans%20Text.woff2') format('woff2');
 }
 
 h2 {
