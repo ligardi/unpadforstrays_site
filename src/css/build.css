@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Google Sans Text;
+  src: url(./font/Google Sans Text.woff2) format("truetype");
+}
+
+
 .scrollbar::-webkit-scrollbar {
   height: 6px;
 };
@@ -486,7 +492,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('https://fonts.gstatic.com/s/googlesanstext/v22/5aUu9-KzpRiLCAt4Unrc-xIKmCU5qEp2iw.woff2') format('woff2');
+  src: url(./font/Google Sans Text.woff2) format('woff2');
 }
 
 h2 {
