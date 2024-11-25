@@ -1,6 +1,9 @@
 @font-face {
-  font-family: Google Sans Text;
+  font-family: 'Google Sans Text';
   src: url('https://fonts.gstatic.com/s/googlesanstext/v22/5aUp9-KzpRiLCAt4Unrc-xIKmCU5oLlVnmhjtg.woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 
@@ -487,12 +490,12 @@ video {
   display: none;
 }
 
-html {
-  font-family: Google Sans Text, Roboto, Helvetica, sans-serif
+* {
+  font-family: 'Google Sans Text', Roboto, Helvetica, sans-serif;
   font-style: normal;
-/*   font-weight: 400;
+  font-weight: normal;
+  font-style: normal;
   font-display: swap;
-  src: url(./font/GoogleSansText.woff2) format('woff2'); */ */
 }
 
 h2 {
